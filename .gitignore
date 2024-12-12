@@ -1,2 +1,8 @@
 data/
 model/*
+
+# Ignore node_modules directory
+web_view/model_js/
+web_view/node_modules/
+web_view/gen_ai.js
+web_view/key_gen.json
