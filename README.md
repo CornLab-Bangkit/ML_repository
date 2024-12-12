@@ -2,14 +2,20 @@
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir dashboard
-cd dashboard
-pipenv install
-pipenv shell
-pip install -r requirements.txt
+conda create --name <new-env-name> --file requirements.txt
+pip install -r pip_requirements.txt
 ```
 
-## Run steamlit app
+## Setup web Environment
 ```
-streamlit run dashboard.py
+npm install
+npm update
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+## Run web model prediction
+```
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+node ./app.js
 ```
