@@ -12,6 +12,7 @@ npm install
 npm update
 npm install -D tailwindcss
 npx tailwindcss init
+npm install flowbite
 ```
 
 ## Run web model prediction
